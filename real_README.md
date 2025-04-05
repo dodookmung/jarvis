@@ -1,4 +1,5 @@
 # 진짜 README
+## 초기 설정
 
 Python 3.11.9 (아마 버전 상관 없을듯)
 
@@ -6,6 +7,21 @@ Python 3.11.9 (아마 버전 상관 없을듯)
 
 ```bash
 pip install -r requirements.txt
+```
+
+### LLM API key 가져오기
+
+```bash
+# .env
+OPENAI_API_KEY=your_api_key
+```
+
+.env 파일의 your_api_key에 openai에서 발급한 key 입력</br>
+
+#### 예제
+```
+OPENAI_API_KEY=sk-...AAoA
+ANTHROPIC_API_KEY=sk-ant-api03-...
 ```
 
 </br></br>
@@ -38,7 +54,7 @@ Python 코드:
 ```
 
 promtps.py에 초기화 한 문자열 변수를 모듈로</br>
-main.py에서 불러온다다 
+main.py에서 불러온다 
 
 ```python
 # main.py
